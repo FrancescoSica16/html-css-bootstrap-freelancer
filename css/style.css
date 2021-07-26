@@ -1,20 +1,14 @@
 
 header {
     background-color: rgb(26, 26, 53);
-    height: 50px;
+    min-height: 50px;
 }
 
 
 .start-bootstrap {
     background-color: rgb(31, 134, 95);
-    height: 150px;
+    min-height: 150px;
     line-height: 150px;
-}
-
-.portfolio {
-    background-color: rgb(159, 241, 210);
-    height: 100px;
-    text-align: center;
 }
 
 .portfolio h2 {
@@ -25,16 +19,33 @@ header {
 
 .activiti [class^="col-"] {
     background-color: cadetblue;
-    height: 40px;
+    min-height: 40px;
 }
 
 .portfolio-img .img{
     background-color: coral;
-    height: 150px;
+    min-height: 150px;
     margin-bottom: 15px;
 }
 
 .about{
     background-color: rgb(31, 134, 95);
-    height: 100px;
+   padding: 25px 0;
+    margin-bottom: 25px;
+}
+
+.contact .form{
+    background-color: coral;
+    min-height: 150px;
+}
+
+footer{
+    min-height: 200px;
+}
+
+.fot{
+    background-color: darkkhaki;
+    min-height: 200px;
+    border: 1px solid black;
+    padding: 0 20px;
 }
