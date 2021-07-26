@@ -20,6 +20,7 @@ header  [class^="col-"] {
     font-size: 2em;
 }
 
-.activiti [class^="col-"]{
-    
+.activiti [class^="col-"] {
+    background-color: cadetblue;
+    height: 40px;
 }
