@@ -1,14 +1,17 @@
-header  [class^="col-"] {
+
+header {
     background-color: rgb(26, 26, 53);
     height: 50px;
 }
 
-.start-bootstrap  [class^="col-"] {
+
+.start-bootstrap {
     background-color: rgb(31, 134, 95);
     height: 150px;
+    line-height: 150px;
 }
 
-.portfolio [class^="col-"] {
+.portfolio {
     background-color: rgb(159, 241, 210);
     height: 100px;
     text-align: center;
@@ -23,4 +26,15 @@ header  [class^="col-"] {
 .activiti [class^="col-"] {
     background-color: cadetblue;
     height: 40px;
+}
+
+.portfolio-img .img{
+    background-color: coral;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.about{
+    background-color: rgb(31, 134, 95);
+    height: 100px;
 }
