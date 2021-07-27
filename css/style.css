@@ -5,11 +5,12 @@ header {
 }
 
 
-.start-bootstrap {
+#jumbotron {
     background-color: rgb(31, 134, 95);
     min-height: 150px;
-    line-height: 150px;
 }
+
+
 
 .portfolio h2 {
     color: brown;
