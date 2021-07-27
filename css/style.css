@@ -8,25 +8,27 @@ header {
 #jumbotron {
     background-color: rgb(31, 134, 95);
     min-height: 150px;
+    margin-bottom: 25px;
 }
 
 
 
-.portfolio h2 {
+/* .portfolio h2 {
     color: brown;
     line-height: 100px;
     font-size: 2em;
-}
+} */
 
 .activiti [class^="col-"] {
     background-color: cadetblue;
     min-height: 40px;
 }
 
-.portfolio-img .img{
-    background-color: coral;
-    min-height: 150px;
+.portfolio-img img{  
+    height: 250px;
+    background-size: contain;
     margin-bottom: 15px;
+    border-radius: 10px;
 }
 
 .about{
